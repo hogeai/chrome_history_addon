@@ -1,0 +1,22 @@
+{
+"name": "Chrome History Count",
+"manifest_version": 2,
+"version": "1.0.0",
+"description": "Chrome History Count",
+"icons": {
+  "16": "images/icon/i_16.png",
+  "48": "images/icon/i_48.png",
+  "128": "images/icon/i_128.png"
+},
+"browser_action": {
+  "default_icon": {
+    "19": "images/icon/i_16.png",
+    "38": "images/icon/i_32.png"
+  },
+  "default_title": "history",
+  "default_popup": "popup.html"
+},
+"permissions": [
+  "history"
+]
+}
