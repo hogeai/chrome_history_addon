@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     for(var item in items)
     {
-      if (items[item][0].lenght<2)continue;
+      if (items[item][0].length<2)continue;
       if (items[item][1]<2)continue;
       html += '<li>' +
                 '<a href="' + array[items[item][0]] + '" target="_blank">' +
